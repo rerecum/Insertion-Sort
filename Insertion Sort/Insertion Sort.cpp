@@ -7,13 +7,13 @@ using namespace std;
 void insertionSort(int arr[])
 {
     int j = 0;
-    int key = 0;
+    int key;
 
     for (int i = 1; i < 5; i++)
     {
-        key = arr[i]; // outer loop
+        key = arr[i];
         j = i - 1;
-        while (j >= 0 && arr[j] > key) // inner loop
+        while (j >= 0 && arr[j] > key)
         {
             arr[j + 1] = arr[j];
             j = j - 1;
