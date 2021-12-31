@@ -18,7 +18,19 @@ int main()
         cin >> myarray[i];
     }
 
+    cout << "Przed sortowaniem: " << endl;
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<myarray[i]<<" ";
+    }
+
     insertionSort(myarray); 
+
+    cout << "Po sortowaniu: " << endl;
+    for (int i = 0; i < 5; i++)
+    {
+        cout << myarray[i] << " ";
+    }
 
     return 0;
 }
