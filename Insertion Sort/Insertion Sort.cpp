@@ -4,7 +4,21 @@
 
 using namespace std;
 
+void insertionSort(int arr[])
+{
+
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    int myarray[5];
+    cout << "Podaj 5 liczb: " << endl;
+    for (int i = 0; i < 5; i++)
+    {
+        cin >> myarray[i];
+    }
+
+    insertionSort(myarray); 
+
+    return 0;
 }
